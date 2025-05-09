@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Laborabrechnung xsi:noNamespaceSchemaLocation="Laborabrechnungsdaten_(KZBV-VDZI-VDDS)_(V4-5).xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.5">
+  <Rechnung Laborsoftwarehersteller="DentaTool UG (www.dentatool.de)" Laborsoftware="DentaTool" Laborname="Dentallabor Test" Herstellungsort="D-Berlin" Abrechnungsbereich="BE" Laborlieferdatum="2025-05-09" Laborrechnungsnummer="20251234" Auftragsnummer="289202-600-ZE-8040-30-3" Gesamtbetrag_netto="10919" Mehrwertsteuer_gesamt="764" Gesamtbetrag_brutto="11683">
+    <MWST-Gruppe Zwischensumme_netto="10919" Mehrwertsteuersatz="70" Mehrwertsteuerbetrag="764">
+      <Position Art="BEL" Nummer="0010" Beschreibung="Modell" Einzelpreis="806" Menge="2000"/>
+      <Position Art="BEL" Nummer="0112" Beschreibung="Fixator" Einzelpreis="1050" Menge="1000"/>
+      <Position Art="BEL" Nummer="8090" Beschreibung="Vollständige Unterfütterung" Einzelpreis="6887" Menge="1000"/>
+      <Position Art="BEL" Nummer="9330" Beschreibung="Versandkosten" Einzelpreis="685" Menge="2000"/>
+    </MWST-Gruppe>
+  </Rechnung>
+</Laborabrechnung>
