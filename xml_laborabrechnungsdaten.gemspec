@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Florian Görsdorf"]
   spec.email = ["florian.goersdorf@dentatool.de"]
 
-  spec.summary = "Library to create XML invoice representations of dental labs invoices following the german VDDS XML exchange standart between dental offices and dental labs"
-  spec.description = "TODO: Write a longer description or delete this line."
+  spec.summary = "Library to create XML invoice representations of dental labs invoices following the german VDDS XML exchange standart between dental practices and dental labs"
+  spec.description = "A ruby gem to generate XML for invoice exchange between dental lab and dentist practices following the standard from VDDS, KZBV and VDZI."
   spec.homepage = "https://github.com/florian2/xml_laborabrechnungsdaten"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
