@@ -1,6 +1,8 @@
 # VddsLaborabrechnungsdatenXml
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/vdds_laborabrechnungsdaten_xml`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem is a ruby implementation of the XML interface for data exchange between dental laboratories and dental practices. It's use for patients with public health insurance has been part of dental billing since January 1, 2012. The interface is maintained and further developed in cooperation between the KZBV, the VDZI, and the VDDS. The goal of their collaboration is to ensure stable and effective processes in dental laboratories and dental practices. This gem and or the author are in no way associated with VDDS, KZBV or VDZI.
+
+For more information see https://www.vdds.de/schnittstellen/labor/
 
 ## Installation
 
@@ -20,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+See rspec test case for a usage example.
 
 ## Development
 
