@@ -1,4 +1,4 @@
-# VddsLaborabrechnungsdatenXml
+# XML Laborabrechnungsdaten
 
 This gem is a ruby implementation of the XML interface for data exchange between dental laboratories and dental practices. It's use for patients with public health insurance has been part of dental billing since January 1, 2012. The interface is maintained and further developed in cooperation between the KZBV, the VDZI, and the VDDS. The goal of their collaboration is to ensure stable and effective processes in dental laboratories and dental practices. This gem and or the author are in no way associated with VDDS, KZBV or VDZI.
 
@@ -9,7 +9,7 @@ For more information see https://www.vdds.de/schnittstellen/labor/
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'vdds_laborabrechnungsdaten_xml'
+gem 'xml_laborabrechnungsdaten'
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install vdds_laborabrechnungsdaten_xml
+    $ gem install xml_laborabrechnungsdaten
 
 ## Usage
 
@@ -32,7 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/florian2/vdds_laborabrechnungsdaten_xml.
+Bug reports and pull requests are welcome on GitHub at https://github.com/florian2/xml_laborabrechnungsdaten
 
 ## License
 

@@ -1,4 +1,4 @@
-module VddsLaborabrechnungsdatenXml
+module XmlLaborabrechnungsdaten
   class Rechnung
     include MemberContainer
 

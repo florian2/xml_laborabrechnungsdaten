@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-require_relative "lib/vdds_laborabrechnungsdaten_xml/version"
+require_relative "lib/xml_laborabrechnungsdaten/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "vdds_laborabrechnungsdaten_xml"
-  spec.version = VddsLaborabrechnungsdatenXml::VERSION
+  spec.name = "xml_laborabrechnungsdaten"
+  spec.version = XmlLaborabrechnungsdaten::VERSION
   spec.authors = ["Florian Görsdorf"]
   spec.email = ["florian.goersdorf@dentatool.de"]
 
   spec.summary = "Library to create XML invoice representations of dental labs invoices following the german VDDS XML exchange standart between dental offices and dental labs"
   spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "https://github.com/florian2/vdds_laborabrechnungsdaten_xml"
+  spec.homepage = "https://github.com/florian2/xml_laborabrechnungsdaten"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 

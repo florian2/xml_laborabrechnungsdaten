@@ -1,4 +1,4 @@
-module VddsLaborabrechnungsdatenXml
+module XmlLaborabrechnungsdaten
   module MemberContainer
     def self.included(base)
       base.instance_variable_set :@members, {}

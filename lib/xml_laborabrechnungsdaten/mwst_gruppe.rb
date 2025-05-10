@@ -1,4 +1,4 @@
-module VddsLaborabrechnungsdatenXml
+module XmlLaborabrechnungsdaten
   class MwstGruppe
     include MemberContainer
 

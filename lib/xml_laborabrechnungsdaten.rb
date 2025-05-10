@@ -1,11 +1,11 @@
-require_relative "vdds_laborabrechnungsdaten_xml/version"
-require_relative "vdds_laborabrechnungsdaten_xml/member_container"
-require_relative "vdds_laborabrechnungsdaten_xml/rechnung"
-require_relative "vdds_laborabrechnungsdaten_xml/mwst_gruppe"
-require_relative "vdds_laborabrechnungsdaten_xml/position"
+require_relative "xml_laborabrechnungsdaten/version"
+require_relative "xml_laborabrechnungsdaten/member_container"
+require_relative "xml_laborabrechnungsdaten/rechnung"
+require_relative "xml_laborabrechnungsdaten/mwst_gruppe"
+require_relative "xml_laborabrechnungsdaten/position"
 require "builder"
 
-module VddsLaborabrechnungsdatenXml
+module XmlLaborabrechnungsdaten
   class Error < StandardError; end
 
   class Document

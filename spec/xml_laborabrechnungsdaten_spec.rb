@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
-RSpec.describe VddsLaborabrechnungsdatenXml do
+RSpec.describe XmlLaborabrechnungsdaten do
   subject(:doc) do
-    VddsLaborabrechnungsdatenXml::Document.new
+    XmlLaborabrechnungsdaten::Document.new
   end
 
   it "has a version number" do
-    expect(VddsLaborabrechnungsdatenXml::VERSION).not_to be nil
+    expect(XmlLaborabrechnungsdaten::VERSION).not_to be nil
   end
 
   it "generates valid XML" do
@@ -14,7 +14,7 @@ RSpec.describe VddsLaborabrechnungsdatenXml do
     doc.version = "4.5"
 
     # Create and configure the invoice
-    rechnung = VddsLaborabrechnungsdatenXml::Rechnung.new
+    rechnung = XmlLaborabrechnungsdaten::Rechnung.new
     rechnung.laborsoftwarehersteller = "DentaTool UG (www.dentatool.de)"
     rechnung.laborsoftware = "DentaTool"
     rechnung.laborname = "Dentallabor Test"
@@ -28,7 +28,7 @@ RSpec.describe VddsLaborabrechnungsdatenXml do
     rechnung.gesamtbetrag_brutto = "11683"
 
     # Create and configure the VAT group
-    mwst_gruppe = VddsLaborabrechnungsdatenXml::MwstGruppe.new
+    mwst_gruppe = XmlLaborabrechnungsdaten::MwstGruppe.new
     mwst_gruppe.zwischensumme_netto = "10919"
     mwst_gruppe.mehrwertsteuersatz = "70"
     mwst_gruppe.mehrwertsteuerbetrag = "764"
@@ -42,7 +42,7 @@ RSpec.describe VddsLaborabrechnungsdatenXml do
     ]
 
     positions_data.each do |pos_data|
-      position = VddsLaborabrechnungsdatenXml::Position.new
+      position = XmlLaborabrechnungsdaten::Position.new
       position.art = pos_data[:art]
       position.nummer = pos_data[:nummer]
       position.beschreibung = pos_data[:beschreibung]

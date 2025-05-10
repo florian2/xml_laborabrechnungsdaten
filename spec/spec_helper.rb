@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "vdds_laborabrechnungsdaten_xml"
+require "xml_laborabrechnungsdaten"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
